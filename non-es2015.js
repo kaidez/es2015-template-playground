@@ -8,8 +8,11 @@ function PrintTeamOldSchool( city, teamName ) {
 
 }
 
-PrintTeamOldSchool.prototype.displayTeamName = function(){
+
+PrintTeamOldSchool.prototype.displayTeamName = function() {
+  
   document.getElementById( "containerOne" ).innerHTML = this.fullName;
+
 }
 
 var yankees = new PrintTeamOldSchool( "New York", "Yankees" );
